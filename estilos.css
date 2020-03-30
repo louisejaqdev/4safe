@@ -1,0 +1,221 @@
+body,
+ul,
+li,
+p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header>a {
+    text-decoration: none;
+    color: #0a3a34;
+    font-size: 7vh;
+}
+
+#quatro {
+    color: #11864d;
+    font-weight: bold;
+}
+
+.barraMenu {
+    color: #11864d;
+    font-weight: bold;
+}
+
+header {
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.menuSite {
+    display: flex;
+}
+
+.menuSite li {
+    margin-left: 20px;
+}
+
+.menuSite li,
+a {
+    display: inline;
+    padding: 10px;
+}
+
+
+/* Banner */
+
+section#banner {
+    background-color: #26a69a;
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#logo-4safe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-4safe img {
+    width: 22rem;
+}
+
+#col-4safe {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#col-4safe button {
+    background-color: #4be299;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    border: none;
+}
+
+#col-4safe button a {
+    color: white;
+    font-size: 1.2rem;
+}
+
+#col-4safe button a:hover {
+    font-size: 1.2rem;
+    color: rgba(9, 102, 63, 0.603);
+}
+
+#col-4safe button:hover {
+    background-color: rgba(255, 255, 255, 0.774);
+    cursor: pointer;
+}
+
+
+/* Fim Banner */
+
+
+/* Produtos */
+
+.secao1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.produtos img {
+    width: 150px;
+    border-radius: 90px;
+}
+
+.produtos h2 {
+    font-size: 1.6rem;
+    color: #00796b;
+}
+
+
+/* Fim Produtos */
+
+contei.secao2 {
+    background-color: #22496A;
+    width: 100%;
+    height: 350px;
+    padding: 2rem;
+}
+
+.timefotos {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100;
+    background: #00796b;
+    color: white;
+    padding: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#formularioContato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.botaoEnviar {
+    background-color: #11864d;
+    padding: 10px;
+    color: white;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.caixasDeTexto {
+    padding: 10px;
+    width: 210px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 0.5em;
+}
+
+
+/* Responsivo */
+
+@media screen and (max-width: 400px) {
+    section#banner {
+        background-color: #26a69a;
+        width: 100vw;
+        height: 80vh;
+        display: block;
+    }
+    #logo-4safe img {
+        width: 15rem;
+        margin: 2rem;
+    }
+    #col-4safe {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .secao1 {
+        display: block;
+    }
+}
+
+
+/* Fim Responsivo */
